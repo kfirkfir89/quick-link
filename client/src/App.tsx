@@ -1,14 +1,9 @@
-import { useState } from 'react';
-
-import './App.css';
-
 function App() {
-  const [count, setCount] = useState(0);
-
-  setCount(10);
   return (
-    <div className="flex flex-col items-center">
-      <span className="flex text-2xl font-semibold">hello setup{count}</span>
+    <div className="flex h-full w-full flex-col items-center bg-red-700">
+      <span className="flex bg-red-200 text-2xl font-semibold">
+        hello setupgfd
+      </span>
     </div>
   );
 }
